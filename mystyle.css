@@ -1,0 +1,124 @@
+
+div#wrapper { width: 1340px; /*large width to fit page */
+	      margin-left: auto;
+              margin-right: auto;
+              margin-top: 20px;
+              margin-bottom: 10px;
+			  font-family: 'OpenDyslexic-Regular', arial;
+              background-color: #d6b8e0;
+		      
+              background-repeat: repeat-y; 
+	      background-position: left top;
+  	      background-attachment: scroll; }
+
+          
+header { height: 148px;
+	 margin-bottom: 20px; }
+
+header h1, header p { text-indent: -999999999px; } /*to take header title off page */ 
+
+.shop header {background: white url(images/banner-onlineshop.png) no-repeat;  } /*different titled headers for each page, as the page descreiption on each changes for each page */
+.index header {background: white url(images/banner-homepage.png) no-repeat; }
+.about header {background: white url(images/banner-about.png) no-repeat;  }
+
+.navbar { text-align: center; /*this is to style navbar and to create a colour difference when hovering over with mouse*/
+		font-size: 18px;
+		overflow: hidden;
+		border: 5px;
+		border-style: double;
+		padding: 10px;
+		} 
+		
+.navbar a {display: inline-block;
+			color: black;
+			text-align: center;
+			padding: 14px 16px;
+text-decoration: none; }
+
+.navbar a:hover { color: white; }
+
+
+.container { display: block;
+width: 100% ; }
+
+
+
+
+
+
+
+.card {box-shadow: 0 4px 8px; /*keeps food image and text as a card*/
+       width: 428px;
+	   height: 358 px ;
+	   float: left;
+	   margin: 10px;
+	   padding: 10px 3px;
+	   text-align: center;
+	   background-color: #d6b8e0;
+           font-family: 'OpenDyslexic-Regular', arial; } 
+
+.price {color: grey;
+font-size: 22px; }
+
+.card button {border: none; /*this is to style the add to cart buttons*/
+			  outline: 0;
+			  padding: 12px;
+			  color: white;
+			  background-color: #000;
+			  text-align: center;
+			  cursor: pointer;
+			  width: 100%;
+font-size: 18px; }
+
+.card button:hover {
+	opacity: 0.7; }
+	
+	
+.container .card:first-child {   /*this put the cards into rows-figuring out how to get the cards into rows took me HOURS #stubborn */
+margin-left: 0; }
+
+.container .card:nth-child(2n) {
+margin-right: 0; }
+
+.container .card:nth-child(3n) {
+margin-right: 0; }
+
+.email { text-align: center;  /*this is the box that borders the email link*/
+	 width: 400px;
+	 border: 10px solid #dd7b4a;
+	 padding: 30px;
+margin: auto; }
+	
+		
+
+	
+
+.body {padding-bottom: 100px }
+	
+.footer {  /*this is a fixed footer*/
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+color: black;
+left: 0;
+width: 100%;
+font-size: 20px; }
+  
+
+.abouth { color: #3a96c4;  /*to style sections on about page without interfering with header banners*/
+		font-size: 30px;
+margin-top:40px;		}
+
+.aboutp { color: black;
+font-size: 20px;  } /* to change color of paragraphs- differ from heading*/
+
+.center {display: block; /*image was going to far left page, created class to center it*/
+		margin-left: auto;
+margin-right: auto; 
+width: 1340px }
+
+p.a {color: #3a96c4;
+text-align: center;
+margin-top: 40px ; 
+margin-bottom: 30px; }
